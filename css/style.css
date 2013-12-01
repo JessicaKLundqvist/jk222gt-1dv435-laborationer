@@ -6,10 +6,10 @@
     
 #header {
     
-    width:100%;
+    width:auto;
     height:150px;
     position:relative;
-    background: lightblue;
+    background: silver;
     border-bottom: 1px solid #000;
     margin:10px 10px 0 10px;
 }  
@@ -24,10 +24,10 @@
 }
 
 a:link {color:pink;}
-a:visited {color:lightpink;}
-a:focus {color:brown;}
-a:hover {color:black;}
-a:active {color:beige;}
+a:visited {color:fuchsia;}
+a:focus {color:silver;}
+a:hover {color:gray;}
+a:active {color:white;}
 
 h1 {    font-variant: small-caps;
         font-size:2em;}
@@ -50,7 +50,7 @@ body {
     }
 
 #menu {
-    width:100%;
+    width:auto;
     height:30px;
     position:relative;
     background-color:black;
@@ -90,10 +90,9 @@ body {
 #sideNav{
     float:left;
     width:200px;
-    height:1500px;
-    background-color: lightyellow;
-    border: 1px white;
-    margin:10px;
+    height:2000px;
+    background-color: Gray;
+    margin:10px 0 10px 10px;
     
     
 }
@@ -101,10 +100,9 @@ body {
 #sideNav2 {
      float:right;
      width:200px;
-     height:1500px;
-     background-color: lightyellow;
-     border: 1px white;
-     margin:10px;
+     height:2000px;
+     background-color: gray;
+     margin:10px 10px 10px 0;
      
 
 }
@@ -117,7 +115,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid#000;
-    color: #FFF;
-    background-color: #FC0;
+    color: black;
+    background-color: #FF0044;
     
 }
