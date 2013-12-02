@@ -3,13 +3,15 @@
     width:900px;
     
 } 
+
+
     
 #header {
     
     width:auto;
     height:150px;
     position:relative;
-    background: silver;
+    background: #BF8893;
     border-bottom: 1px solid #000;
     margin:10px 10px 0 10px;
 }  
@@ -23,8 +25,10 @@
     
 }
 
-a:link {color:pink;}
-a:visited {color:fuchsia;}
+
+
+a:link {color:#7F5A62;}
+a:visited {color:#7F5A62;}
 a:focus {color:silver;}
 a:hover {color:gray;}
 a:active {color:white;}
@@ -42,7 +46,8 @@ p { font-family: "Helvetica", "Arial", Sans-serif;
     font-size:0.9em;}
 
 body { 
-    color: black;
+    color:black;
+    
     text-align: left;
     margin: 40px;
     font-size:1em;
@@ -68,31 +73,39 @@ body {
 
 .nav li {
     margin-right: 20px;
-    float: left;
+    display:inline;
 }    
 
 .nav a {
-    color: #FF00FF;
+    
+    color: #FFB5C4;
     font-size:14px;
     font-family:arial;
     text-decoration:none;
+    padding: .4em 1em;
+    background-color: black;
+    
 }
 
 .nav a:hover{
-    color:black;
+    color:#7F5A62;
     font-size:14px;
     font-family:arial;
     text-decoration:none;
 }
 
+.active {
+    background-color:#402D31;
+}
 
 
 #sideNav{
     float:left;
     width:200px;
     height:2000px;
-    background-color: Gray;
+    background-color: #402D31;
     margin:10px 0 10px 10px;
+    color:#FFB5C4;
     
     
 }
@@ -101,9 +114,9 @@ body {
      float:right;
      width:200px;
      height:2000px;
-     background-color: gray;
+     background-color: #7F5A62;
      margin:10px 10px 10px 0;
-     
+     color:;
 
 }
 
@@ -115,7 +128,8 @@ body {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid#000;
-    color: black;
-    background-color: #FF0044;
+    background-color:#FFB5C4 ;
+    color: #402D31;
+    
     
 }
