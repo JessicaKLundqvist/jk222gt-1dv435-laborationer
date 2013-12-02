@@ -34,16 +34,20 @@ a:hover {color:gray;}
 a:active {color:white;}
 
 h1 {    font-variant: small-caps;
-        font-size:2em;}
+        font-size:2em;
+        font-family: 'Wellfleet', cursive;}
         
 h2 {    font-variant: small-caps;
-        font-size:1.6em;}        
+        font-size:1.6em;
+        font-family: 'Wellfleet', cursive;}        
         
 h3 {    font-variant: small-caps;
-        font-size:1.3em;}
+        font-size:1.3em;
+        font-family: 'Wellfleet', cursive;}
         
-p { font-family: "Helvetica", "Arial", Sans-serif;
-    font-size:0.9em;}
+p { font-family: 'Wellfleet', cursive;
+    font-size:0.9em;
+    }
 
 body { 
     color:black;
@@ -51,6 +55,7 @@ body {
     text-align: left;
     margin: 40px;
     font-size:1em;
+    font-family: 'Wellfleet', cursive;
     
     }
 
@@ -64,10 +69,21 @@ body {
     
 }
 
+.sidelink {
+    font-family: 'Wellfleet', cursive;}
+    
+.sidelink a {
+    color: #FFB5C4;}
+    
+.sidelink a:hover {
+    color: #402D31;
+}    
+
 .nav {
     list-style-type: none;
     position:absolute;
     margin: 4px 0 1px 170px;
+    
     
 }
 
@@ -80,17 +96,17 @@ body {
     
     color: #FFB5C4;
     font-size:14px;
-    font-family:arial;
+    font-family: 'Wellfleet', cursive;
     text-decoration:none;
     padding: .4em 1em;
     background-color: black;
+    
     
 }
 
 .nav a:hover{
     color:#7F5A62;
     font-size:14px;
-    font-family:arial;
     text-decoration:none;
 }
 
