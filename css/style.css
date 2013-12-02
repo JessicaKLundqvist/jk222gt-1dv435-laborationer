@@ -129,6 +129,17 @@ article {
     margin:0 0 0 150px;
 }
 
+.table {
+      border-collapse:collapse;
+     border-spacing:2px;
+     border:3px solid #402D31;
+     
+  
+}
+
+
+
+
 #sideNav{
     float:left;
     width:200px;
