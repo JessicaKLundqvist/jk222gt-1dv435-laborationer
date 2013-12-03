@@ -82,6 +82,14 @@ article {
     border:2px solid black;
 }
 
+#postimage1 {
+    height:80px;
+    width:100px;
+    float:right;
+    margin: 10px 3px 10px 10px;
+    border:2px solid black;
+}
+
 .logga {
     opacity:0.5;
     position:inherit;
