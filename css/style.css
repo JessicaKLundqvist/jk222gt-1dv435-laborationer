@@ -75,8 +75,24 @@ article {
     
 }
 
+/*images*/
 
+#selfie {
+    margin:25px 25px 0 25px;
+    border:2px solid black;
+}
 
+.logga {
+    opacity:0.5;
+    position:inherit;
+}   
+
+.log {
+    float:left;
+    margin: 25px 5px 0 25px ;
+}
+
+/*classes*/
 .sidelink {
     font-family: 'Wellfleet', cursive;}
     
@@ -140,7 +156,7 @@ article {
 }
 
 
-
+/*main content, side and middle */
 
 #sideNav{
     float:left;
