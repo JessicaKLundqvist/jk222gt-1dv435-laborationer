@@ -35,17 +35,17 @@ a:active {color:white;}
 
 h1 {    font-variant: small-caps;
         font-size:2em;
-        font-family: 'Wellfleet', cursive;}
+        font-family: 'Times New Roman', cursive;}
         
 h2 {    font-variant: small-caps;
         font-size:1.6em;
-        font-family: 'Wellfleet', cursive;}        
+        font-family: 'Times New Roman', cursive;}        
         
 h3 {    font-variant: small-caps;
         font-size:1.3em;
-        font-family: 'Wellfleet', cursive;}
+        font-family: 'Times New Roman', cursive;}
         
-p { font-family: 'Wellfleet', cursive;
+p { font-family: 'Times New Roman', cursive;
     font-size:0.9em;
     }
 
@@ -55,7 +55,31 @@ body {
     text-align: left;
     margin: 40px;
     font-size:1em;
-    font-family: 'Wellfleet', cursive;}
+    font-family: 'Times New Roman', cursive;}
+
+/*printerfriendly*/
+
+@media print {
+body { 
+    font-family: Georgia, Times, serif; font-size: 12pt;
+    color: #000000; background-color: #ffffff;
+    }
+    
+#mainContent a:after  { 
+	content: " (" attr(href) ")" ; 
+}
+    
+#menu{
+    display:none;
+}
+
+
+#sideNav2,
+#sideNav {
+    display:none
+}
+
+}
     
 article {
     background-color: rgba(156, 64, 87, 0.5);
@@ -102,7 +126,7 @@ article {
 
 /*classes*/
 .sidelink {
-    font-family: 'Wellfleet', cursive;}
+    font-family: 'Times New Roman', cursive;}
     
 .sidelink a {
     color: #FFB5C4;}
@@ -128,7 +152,7 @@ article {
     
     color: #FFB5C4;
     font-size:14px;
-    font-family: 'Wellfleet', cursive;
+    font-family: 'Times New Roman', cursive;
     text-decoration:none;
     padding: .4em 1em;
     background-color: black;
@@ -152,7 +176,7 @@ article {
 }
 
 .lab table{
-    margin:0 0 0 150px;
+    margin:0 0 0 200px;
 }
 
 .table {
