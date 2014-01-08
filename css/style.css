@@ -62,13 +62,14 @@ body {
 @media print {
 body { 
     font-family: Georgia, Times, serif; font-size: 12pt;
-    color: #000000; background-color: #ffffff;
+    color: #000000; background-color: #ffffff;  
     }
     
 #mainContent a:after  { 
 	content: " (" attr(href) ")" ; 
 }
-    
+
+
 #menu{
     display:none;
 }
@@ -78,6 +79,7 @@ body {
 #sideNav {
     display:none
 }
+
 
 }
     
